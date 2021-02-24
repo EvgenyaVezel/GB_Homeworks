@@ -40,7 +40,7 @@ public class Homework2 {
 
         //Задание 7
         System.out.println("Задание 7");
-        Scanner scanner = new Scanner(System.in);
+
         int[] mas = new int[5];
         int num = 0;
         System.out.println("Введите массив размером 5 ");
@@ -119,7 +119,7 @@ public class Homework2 {
         }
         System.out.println(Arrays.toString(m));
         int min, max;
-        min = m[0]; max = 0;
+        min = m[0]; max = m[0];
 
         for (int i = 0; i < m.length; i++) {
             if(m[i] >max)
