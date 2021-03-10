@@ -2,7 +2,7 @@ public class Work {
 
     public static void main(String[] args) {
         Employee person1 = new Employee("Иванов Илья Владимирович", "Хирург", "IvanovIV@mail.ru", "84958632321", 70000, 20);
-        person1.employeeInfo(person1);
+        person1.employeeInfo();
 
         Employee[] personMass = new Employee[5];
 
@@ -17,7 +17,7 @@ public class Work {
         for (int i = 0; i < personMass.length; i++) {
 
             if(personMass[i].getAge() >40){
-                personMass[i].employeeInfo(personMass[i]);
+                personMass[i].employeeInfo();
             }
 
         }
