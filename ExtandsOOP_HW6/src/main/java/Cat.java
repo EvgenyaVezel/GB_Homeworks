@@ -1,6 +1,7 @@
 public class Cat extends Animals{
 
-public static int numCats;
+    public static final int MAXLENGTHBLOCK = 200;
+    public static int numCats;
     public Cat(String name) {
         super(name);
         numCats++;
@@ -13,7 +14,7 @@ public static int numCats;
 
     @Override
     public void run(int lengthBlock) {
-        if(lengthBlock > 200){
+        if(lengthBlock > MAXLENGTHBLOCK){
             System.out.printf("%s может пробежать расстояние не более 200 метров\n", name);
         }
         else

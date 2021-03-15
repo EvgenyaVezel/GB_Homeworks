@@ -13,10 +13,6 @@ public class App {
         bobik.run(150);
         bobik.swim(8);
 
-        Animals animal = new Animals("Животное");
-        animal.run(150);
-        animal.swim(12);
-
         System.out.println("Количество созданных животных "+ Animals.numInstans);
         System.out.println("Количество созданных кошек "+ Cat.numCats);
         System.out.println("Количество созданных собак "+ Dog.numDogs);

@@ -1,4 +1,4 @@
-public class Animals {
+public abstract class Animals {
 
     protected String name;
     public static int numInstans;//счетчик инстансов класса
