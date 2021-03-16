@@ -14,6 +14,6 @@ public class Plate {
         return food;
     }
     public void decreaseFood(int n){
-        food -= n;
+          food -= n;
     }
 }

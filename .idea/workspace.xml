@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a44ac770-a67f-424d-9767-9a414eb003c8" name="Default Changelist" comment="" />
+    <list default="true" id="a44ac770-a67f-424d-9767-9a414eb003c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Animals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtandsOOP_HW6/target/classes/Dog.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
