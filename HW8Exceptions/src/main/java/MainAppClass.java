@@ -9,10 +9,6 @@ public class MainAppClass {
         } catch (MyArraySizeException e) {
             System.out.println("Размер массива должен быть 4х4");
         }
-        catch (MyArrayDataException e){
-            System.out.println("В ячейке[" + e.i + "] [" + e.j + "] не удалось преобразовать строку в число");
-
-        }
 
     }
 
