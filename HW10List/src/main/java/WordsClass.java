@@ -16,7 +16,7 @@ public class WordsClass {
         System.out.println("исходный список слов: "+Arrays.toString(m));
 
         Arrays.sort(m);// сортируем массив, вычитала в инете, что это "дешевле", чем сортировать коллекцию
-        ArrayList<String> ls = new ArrayList<>(Arrays.asList(m));// создаю коллекцию на основе массива
+        List<String> ls = Arrays.asList(m);// создаю коллекцию на основе массива
         String previousWord = "";//переменная для хранения предыдущего слова
         for(String str: ls){
             if(previousWord == str){ continue; }//если строки рядом равны - пропускаем итерацию
