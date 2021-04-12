@@ -64,13 +64,12 @@ public class AppClass {
     }
 
     private static void goArr(float[] mass) {//метод расчета массива
-        Lock lock = new ReentrantLock();
-        lock.lock();
+
         long a = System.currentTimeMillis();
         for (int i = 0; i < mass.length; i++) {
             mass[i] = (float) (mass[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
-        lock.unlock();
+
 
         System.out.printf("Время расчета части массива: %d\n", System.currentTimeMillis() - a);
     }
