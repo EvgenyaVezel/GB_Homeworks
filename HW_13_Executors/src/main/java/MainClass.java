@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 public class MainClass {
@@ -43,7 +44,7 @@ class Car implements Runnable {
 
     private CyclicBarrier cb;
     private CountDownLatch cdl;
-    private static boolean winFound;
+    private static volatile AtomicBoolean winFound;
 
     public String getName() {
         return name;
